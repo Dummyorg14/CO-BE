@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/api/health', (req, res) => {
-  res.json({ status: "ok", service: "disaster-backend" });
+  res.json({ status: "ok", service: "campusone-backend" });
 });
 
 app.listen(3000, () => {
